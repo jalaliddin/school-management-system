@@ -7,7 +7,7 @@
       </span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">
-        <img style="max-width: 230px; max-height: 50px;" src="@if(isset($appSettings['institute_settings']['logo'])) {{asset('storage/logo/'.$appSettings['institute_settings']['logo'])}} @else {{ asset('images/logo-md.png') }} @endif" alt="logo-md">
+        <img style="max-width: 230px; max-height: 50px;" src="{{ asset('images/logo-md.jpg') }}" alt="logo-md">
       </span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
