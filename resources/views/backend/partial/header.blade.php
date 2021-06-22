@@ -3,11 +3,11 @@
 <a href="{{ URL::route('user.dashboard') }}" class="logo hidden-xs">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">
-      <img style="max-width: 50px; max-height: 50px;" src="@if(isset($appSettings['institute_settings']['logo_small'])) {{asset('storage/logo/'.$appSettings['institute_settings']['logo_small'])}} @else {{ asset('images/logo-xs.png') }} @endif" alt="logo-mini">
+      <img style="max-width: 50px; max-height: 50px;" src="{{ asset('images/logo-xs.png') }}" alt="logo-mini">
       </span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">
-        <img style="max-width: 230px; max-height: 50px;" src="{{ asset('images/logo-md.jpg') }}" alt="logo-md">
+        <img style="max-width: 230px; max-height: 50px;" src="{{ asset('images/logo-md.JPG') }}" alt="logo-md">
       </span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
