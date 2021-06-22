@@ -103,7 +103,7 @@
                                         <label for="nationality">Nationality<span class="text-danger">*</span>
                                             <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="select nationality"></i>
                                         </label>
-                                        {!! Form::select('nationality', ['Bangladeshi' => 'Bangladeshi', 'Other' => 'Other'], $nationality , ['class' => 'form-control', 'required' => 'true']) !!}
+                                        {!! Form::select('nationality', ['Uzbek' => 'Uzbekistan', 'Other' => 'Other'], $nationality , ['class' => 'form-control', 'required' => 'true']) !!}
                                         <span class="form-control-feedback"></span>
                                         <span class="text-danger">{{ $errors->first('nationality') }}</span>
                                     </div>
