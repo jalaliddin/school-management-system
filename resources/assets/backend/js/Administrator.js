@@ -378,8 +378,6 @@ export default class Administrator {
         $('.btnIdcardPreview').click(function () {
             //clear preview content
             $('.modal-body').empty();
-            $('.modal-body').append(' <iframe id="idFrame" style="margin-left:22px;width: 100%; height: 350px;" src="" frameborder="0">\n' +
-                '                    </iframe>');
 
             let pk = $(this).attr('data-id');
             Generic.loaderStart();
